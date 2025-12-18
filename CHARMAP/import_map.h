@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------
+
+#ifndef import_mapH
+#define import_mapH
+//---------------------------------------------------------------------------
+#endif
+
+#define special_chars 0x2600
+
+#ifndef import_tableH
+#define import_tableH
+
+typedef struct
+{
+	wchar_t game_ch;
+}
+import_table;
+
+#endif
+
+void InitialiseImportTable(import_table **t);
